@@ -7,7 +7,7 @@ st.set_page_config(page_title="Watchlist & Alert App", layout="wide")
 st.title("📈 Watchlist & Financial Alerts (DCA Focused)")
 
 # Подготвени тикери (US + UK)
-default_tickers = "AAPL, MSFT, NVDA, TSLA, VUAA.L"
+default_tickers = "NVDA, VUAA.L, KO, JNJ, O, META, GOOGL, MSFT, TSLA, AAPL, AMZN, JPM, AVGO, CVX"
 user_input = st.text_input("Внесете тикери (одделени со запирка):", default_tickers)
 
 # Исправена линија 13:
